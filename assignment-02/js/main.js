@@ -135,14 +135,14 @@ document.querySelector("#trip-modal").addEventListener("shown.bs.modal", functio
     });
 
     let start = L.marker([currentTrip['start station location'].coordinates[1], currentTrip['start station location'].coordinates[0]])
-        .bindTooltip(currentTrip['start station location'],
+        .bindTooltip(currentTrip['start station name'],
             {
                 permanent: true,
                 direction: 'right'
             }).addTo(map);
 
     let end = L.marker([currentTrip['end station location'].coordinates[1], currentTrip['end station location'].coordinates[0]])
-        .bindTooltip(currentTrip['end station location'],
+        .bindTooltip(currentTrip['end station name'],
             {
                 permanent: true,
                 direction: 'right'
