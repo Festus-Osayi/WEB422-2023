@@ -1,11 +1,11 @@
 /*********************************************************************************
-*  WEB422 – Assignment 5
+*  WEB422 – Assignment 6
 *  I declare that this assignment is my own work in accordance with Seneca Academic Policy.  
 *  No part of this assignment has been copied manually or electronically from any other source
 *  (including web sites) or distributed to other students.
 * 
 *  Name: Festus Osayi Student ID: 170276216 Date: 7-21-2023
-*
+*  Vercel App (Deployed) Link:  https://met-meseum.vercel.app/
 ********************************************************************************/
 
 import React from 'react';

@@ -75,7 +75,7 @@ const MainNav = () => {
             )}
           </Nav>
           {/* Form */}
-          
+
           {token && (
             <Form className="d-flex gap-2" onSubmit={submitForm}>
               <Form.Control
@@ -85,12 +85,16 @@ const MainNav = () => {
                 aria-label="Search"
                 onChange={(e) => setValue(e.target.value)}
               />
-              <Button type="submit" variant="success">
+              <Button
+                onClick={() => setIsExpanded(false)}
+                type="submit"
+                variant="success"
+              >
                 Search
               </Button>
             </Form>
           )}
-          
+
           <Nav>
             {token && (
               <NavDropdown title={token.userName} id="basic-nav-dropdown">
