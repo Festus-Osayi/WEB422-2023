@@ -38,7 +38,7 @@ const about = () => {
       <PageHeader title='About' text='All about me - the developer.' />
       <br />
       <br />
-      <p> Hello everyone I am Festus Osayi, originally from Nigeria, and I am currently attending Seneca College to pursue a career in computer programming. Additionally, I am open to both full-time and part-time employment and am seeking for an internship. Additionally, I am learning React and the full functional programs of React, </p>
+      <p> Hello everyone I am Festus Osayi, originally from Nigeria, and I am currently attending Seneca College to pursue a career in computer programming. I am open to both full-time and part-time employment and am seeking for an internship. Additionally, I am learning React and the full functional programs of React, </p>
 
       <br />
       {/* Seneca College */}
